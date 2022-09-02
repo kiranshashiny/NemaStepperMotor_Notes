@@ -16,6 +16,15 @@ The CNC shield is mounted on the Arduino Uno .
 How to debug :
 
 - No external 5v is required for the CNC shield.
+- Using Multimeter check the 5v on the CNC shield and the 5v of the back side of the Arduino.
+- 
+
+How to set the current limit on the motor driver ( or else it will get hot )
+
+![image](https://user-images.githubusercontent.com/14288989/188088698-4f55f1b7-f5e7-44a2-9167-d831aa1504f9.png)
+
+( to be continued )
+
 
 
 
