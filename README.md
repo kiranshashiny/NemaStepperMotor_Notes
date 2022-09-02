@@ -25,7 +25,12 @@ How to set the current limit on the motor driver ( or else it will get hot )
 
 ( to be continued )
 
-
-
-
 https://www.youtube.com/watch?v=OpaUwWouyE0&t=30s
+
+
+
+![image](https://user-images.githubusercontent.com/14288989/188097567-2a6541df-89ad-4eab-af8c-96838bdac420.png)
+
+
+[17pm-k3.pdf](https://github.com/kiranshashiny/NemaStepperMotor_Notes/files/9476282/17pm-k3.pdf)
+
