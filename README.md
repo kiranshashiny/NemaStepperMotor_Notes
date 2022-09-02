@@ -23,6 +23,14 @@ How to set the current limit on the motor driver ( or else it will get hot )
 
 ![image](https://user-images.githubusercontent.com/14288989/188088698-4f55f1b7-f5e7-44a2-9167-d831aa1504f9.png)
 
+Hold the Multimeter GND and the pot on the driver to check the current.
+
+A typical example would be ( 0.9 X 8 X 0.068 = 0.48A )
+
+Imot = Maximum motor current
+
+Rsen = current sensing resistance.
+
 ( to be continued )
 
 https://www.youtube.com/watch?v=OpaUwWouyE0&t=30s
