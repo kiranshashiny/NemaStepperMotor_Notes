@@ -36,6 +36,12 @@ https://www.youtube.com/watch?v=OpaUwWouyE0&t=30s
 
 --
 
+[17PM-K016V-NMB.pdf](https://github.com/kiranshashiny/NemaStepperMotor_Notes/files/9477678/17PM-K016V-NMB.pdf)
+
+![image](https://user-images.githubusercontent.com/14288989/188138933-3c5fe443-2ca6-4faa-9da9-9b53e374a10f.png)
+
+
+
 
 https://www.mpja.com/Stepper-Motor-NEMA-17-24V-18Deg-Minebea-USED/productinfo/30235%20MS/
 
