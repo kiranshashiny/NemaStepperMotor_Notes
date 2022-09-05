@@ -54,3 +54,8 @@ https://www.youtube.com/watch?v=OpaUwWouyE0&t=30s
 https://www.mpja.com/Stepper-Motor-NEMA-17-24V-18Deg-Minebea-USED/productinfo/30235%20MS/
 
 
+
+## Why stepper gets too hot !
+
+![image](https://user-images.githubusercontent.com/14288989/188450186-dd2d4cb5-3fd1-4724-996e-8ab604bcf887.png)
+
