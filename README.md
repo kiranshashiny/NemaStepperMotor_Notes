@@ -59,3 +59,8 @@ https://www.mpja.com/Stepper-Motor-NEMA-17-24V-18Deg-Minebea-USED/productinfo/30
 
 ![image](https://user-images.githubusercontent.com/14288989/188450186-dd2d4cb5-3fd1-4724-996e-8ab604bcf887.png)
 
+## Link to a German Arduino Nema 17 
+
+https://starthardware.org/arduino-a4988-nema17/
+
+![image](https://user-images.githubusercontent.com/14288989/188457192-a47b2c38-1d4f-4a03-9cae-8d584f62ec36.png)
