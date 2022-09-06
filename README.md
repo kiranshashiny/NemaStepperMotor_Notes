@@ -64,3 +64,72 @@ https://www.mpja.com/Stepper-Motor-NEMA-17-24V-18Deg-Minebea-USED/productinfo/30
 https://starthardware.org/arduino-a4988-nema17/
 
 ![image](https://user-images.githubusercontent.com/14288989/188457192-a47b2c38-1d4f-4a03-9cae-8d584f62ec36.png)
+
+##. When it started working without the CNC shield.
+This was connected to a bread board.
+
+
+The code is as follows:
+
+// Define pin connections & motor's steps per revolution
+const int dirPin  = 3;
+const int stepPin = 6;
+const int stepsPerRevolution = 200;
+
+void setup()
+{
+  // Declare pins as Outputs
+  pinMode(stepPin, OUTPUT);
+  pinMode(dirPin, OUTPUT);
+}
+void loop()
+{
+  // Set motor direction clockwise
+  digitalWrite(dirPin, HIGH);
+
+  // Spin motor slowly
+  for(int x = 0; x < stepsPerRevolution; x++)
+  {
+    digitalWrite(stepPin, HIGH);
+    delayMicroseconds(2000);
+    digitalWrite(stepPin, LOW);
+    delayMicroseconds(2000);
+  }
+  delay(1000); // Wait a second
+  
+  // Set motor direction counterclockwise
+  digitalWrite(dirPin, LOW);
+
+  // Spin motor quickly
+  for(int x = 0; x < stepsPerRevolution; x++)
+  {
+    digitalWrite(stepPin, HIGH);
+    delayMicroseconds(1000);
+    digitalWrite(stepPin, LOW);
+    delayMicroseconds(1000);
+  }
+  delay(1000); // Wait a second
+}
+
+
+## connections are as follows 
+
+Step = 6
+Dir = 3
+2b and 2a are connected to one pair
+1a and 1b are connected to second pair
+Reset and Sleep are interconnected
+Vmot is connected to 12v
+
+GND is connected to Arduino's GND.
+
+Vdd is connected to Arduino's 5v
+GND is connected to Arduino's GND as well.
+
+
+
+## Vref 
+Vref was found to be 0.39v ( the casing is not heating up ! )
+
+
+
