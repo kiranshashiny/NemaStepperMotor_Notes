@@ -71,6 +71,7 @@ This was connected to a bread board.
 
 The code is as follows:
 
+```
 // Define pin connections & motor's steps per revolution
 const int dirPin  = 3;
 const int stepPin = 6;
@@ -111,6 +112,7 @@ void loop()
   delay(1000); // Wait a second
 }
 
+```
 
 ## connections are as follows 
 
@@ -129,6 +131,7 @@ GND is connected to Arduino's GND as well.
 
 
 ## Vref 
+
 Vref was found to be 0.39v ( the casing is not heating up ! )
 
 
