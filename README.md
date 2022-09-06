@@ -116,6 +116,7 @@ void loop()
 
 ## connections are as follows 
 
+```
 Step = 6
 Dir = 3
 2b and 2a are connected to one pair
@@ -127,7 +128,7 @@ GND is connected to Arduino's GND.
 
 Vdd is connected to Arduino's 5v
 GND is connected to Arduino's GND as well.
-
+```
 
 
 ## Vref 
