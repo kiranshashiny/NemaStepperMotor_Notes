@@ -136,4 +136,34 @@ GND is connected to Arduino's GND as well.
 Vref was found to be 0.39v ( the casing is not heating up ! )
 
 
+## To make the movement fast.
+Slow makes it noisy.
+
+```
+// Spin motor quickly.. This is noiseless !
+  for(int x = 0; x < stepsPerRevolution; x++)
+  {
+    digitalWrite(stepPin, HIGH);
+    delayMicroseconds(1000);
+    digitalWrite(stepPin, LOW);
+    delayMicroseconds(1000);
+  }
+  delay(1000); // Wait a second
+```
+
+## To make continuous movement - one direction
+
+// Spin motor slowly
+  for(int x = 0; x < stepsPerRevolution; x++)
+  {
+    digitalWrite(stepPin, HIGH);
+    delayMicroseconds(1000);
+    digitalWrite(stepPin, LOW);
+    delayMicroseconds(1000);
+  }
+
+
+
+
+
 
