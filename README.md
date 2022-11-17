@@ -139,6 +139,7 @@ Vref was found to be 0.39v ( the casing is not heating up ! )
 ## To make the movement fast.
 Slow makes it noisy.
 
+
 ```
 // Spin motor quickly.. This is noiseless !
   for(int x = 0; x < stepsPerRevolution; x++)
@@ -152,7 +153,7 @@ Slow makes it noisy.
 ```
 
 ## To make continuous movement - one direction
-
+```
 // Spin motor slowly
   for(int x = 0; x < stepsPerRevolution; x++)
   {
@@ -161,7 +162,7 @@ Slow makes it noisy.
     digitalWrite(stepPin, LOW);
     delayMicroseconds(1000);
   }
-
+```
 
 
 
