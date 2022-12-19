@@ -122,12 +122,12 @@ Dir = 3
 2b and 2a are connected to one pair
 1a and 1b are connected to second pair
 Reset and Sleep are interconnected
-Vmot is connected to 12v
+Vmot is connected to 12v ( the Upper top right pin on the A4988 ) 
 
 GND is connected to Arduino's GND.
 
-Vdd is connected to Arduino's 5v
-GND is connected to Arduino's GND as well.
+Vdd is connected to Arduino's 5v ( This is a bit confusing, the 2nd lower left pin is Vcc ) 
+GND is connected to Arduino's GND as well. ( this is the lower right - lowest pin)
 ```
 
 
